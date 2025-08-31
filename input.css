@@ -1,0 +1,5 @@
+@tailwind utilities;
+@font-face {
+  font-family: "Vazirmatn";
+  src: url("../fonts/Vazirmatn-Regular.woff2");
+}
