@@ -19,7 +19,3 @@ function onTabClick(e) {
     .classList.remove("hidden");
 }
 
-function valid(email) {
-  const pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  return pattern.test(email);
-}
