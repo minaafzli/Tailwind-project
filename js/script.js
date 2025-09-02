@@ -23,5 +23,3 @@ function valid(email) {
   const pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   return pattern.test(email);
 }
-const email = "example@domain.com";
-console.log(valid(email) ? "Valid email address" : "Invalid email address");
